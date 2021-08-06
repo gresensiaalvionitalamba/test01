@@ -1,1 +1,7 @@
-hello world
+git init 
+git remote add origin https://github.com/greis13/test01.git    "link dari repositori"
+git config --global user.name greis13     "username"
+git config --global user.email gresensia.alvionitabutett@gmail.com         "email"
+git add .
+git commit -m 'test'   "sesuaikan pesan"
+git push origin master    "aploud local ke global/github"
